@@ -1,0 +1,143 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.sedan {
+  width: 33.33%;
+  height: 103vh;
+  background-color: #e38826;
+  float: left;
+}
+.sedanBox {
+  width: 237px;
+  height: 376px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50%;
+}
+
+.suv {
+  width: 33.33%;
+  height: 103vh;
+  background-color: #006970;
+  float: left;
+}
+
+.suvBox {
+  width: 237px;
+  height: 376px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50%;
+}
+.lux {
+  width: 33.33%;
+  height: 103vh;
+  background-color: #004241;
+  float: left;
+}
+
+.luxBox {
+  width: 237px;
+  height: 376px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50%;
+}
+img {
+  width: 64px;
+  height: 40px;
+  top: 50px;
+  padding: 0px 0.08px 0px 0px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+h1 {
+  width: 53px;
+  height: 40px;
+  gap: 0px;
+  opacity: 0px;
+  color: #ffffff;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+}
+
+p {
+  width: 217px;
+  height: 95px;
+  gap: 0px;
+  opacity: 0px;
+  color: #ffffff;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18.75px;
+  text-align: left;
+}
+
+button {
+  width: Hug (143px) px;
+  height: Hug (49px) px;
+  top: 297px;
+  left: 47px;
+  padding: 15px 30px 15px 30px;
+  gap: 8px;
+  border-radius: 30px;
+
+  opacity: 0px;
+  border: 1px solid #f2f2f2;
+  color: #f2f2f2;
+  background-color: transparent;
+}
+
+button:hover {
+  border: 1px solid transparent;
+  background-color: #f2f2f2;
+  color: Black;
+}
+
+@media screen and (max-width: 900px) {
+  .sedan {
+    width: 50%;
+    height: 700px;
+  }
+
+  .suv {
+    width: 50%;
+    height: 700px;
+  }
+
+  .lux {
+    width: 100%;
+    height: 700px;
+  }
+  .luxBox {
+    margin-top: 10%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sedan {
+    width: 100%;
+    height: 700px;
+  }
+
+  .suv {
+    width: 100%;
+    height: 700px;
+  }
+
+  .lux {
+    width: 100%;
+    height: 700px;
+  }
+}
